@@ -74,7 +74,7 @@ function App() {
 
   return (
     <div style={{ padding: "20px", background: "#1e1e1e", minHeight: "100vh", color: "white" }}>
-      <h1>🚀 Mis Proyectos</h1>
+      <h1>Mis Proyectos</h1>
 
       {/* FORMULARIO */}
       <form onSubmit={handleSubmit} style={{ marginBottom: "20px" }}>
