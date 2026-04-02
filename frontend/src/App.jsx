@@ -4,7 +4,7 @@ function App() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch("https://djangorest-crud.onrender.com/")
+    fetch("https://djangorest-crud.onrender.com/api/projects/")
       .then(res => res.json())
       .then(data => setProjects(data))
       .catch(err => console.log(err));
